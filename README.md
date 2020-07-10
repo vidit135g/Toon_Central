@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/vidit135g/Toon_Central/master/fpgra.PNG"/>
+<img src="https://raw.githubusercontent.com/vidit135g/Toon_Central/master/fpgra.png"/>
 
 # Toon Central
 Simple & clean stickers for WhatsApp.
@@ -14,26 +14,43 @@ Simple & clean stickers for WhatsApp.
 How to use:
 
 1. Open Stickify and click on any WhatsApp stickers for chat. You can also search for any WhatsApp sticker
+
 2. After the sticker is downloaded, you'll see a full preview. Click on Add to WhatsApp button if you like the sticker pack
+
 3. Open WhatsApp, go to stickers and click on the new icon of the WhatsApp sticker pack that you added
+
 4. Click on any of the WhatsApp stickers to send it in the chat
 
 Toon Central Roster :
 
 Adventure Time
+
 Courage the Cowardly Dog
+
 Daria
+
 Game Of Thrones
+
 Gravity Falls
+
 Mabel
+
 Minecraft
+
 Pooh & Family
+
 Powerpuff Girls
+
 Simpsons
+
 Steven Universe
+
 Tintin
+
 Tom & Jerry
+
 Winnie The Pooh & many more!
+
 Enjoy, rate & share !
 
 
