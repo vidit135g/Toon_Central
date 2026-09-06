@@ -11,11 +11,14 @@ android {
     }
 
     signingConfigs {
-        config {
-            keyAlias 'stickey0'
-            keyPassword 'nrocirpac1'
-            storeFile file('stickers.jks')
-            storePassword 'nrocirpac'
+        release {
+            def ks = file("/Users/viditgupta/Documents/Project fix/release.keystore")
+            if (ks.exists()) {
+                storeFile ks
+                storePassword "android123"
+                keyAlias "releaseKey"
+                keyPassword "android123"
+            }
         }
     }
 
@@ -38,12 +41,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         release {
+            signingConfig signingConfigs.release
             minifyEnabled false
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            if (signingConfigs.config.storeFile.exists()) {
-                signingConfig signingConfigs.config
-            }
         }
     }
 
