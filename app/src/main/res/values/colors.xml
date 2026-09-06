@@ -1,1 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><resources>    <color name="colorPrimary">#fff</color>    <color name="colorPrimaryDark">@android:color/transparent</color>    <color name="colorAccent">#4285F4</color>    <color name="inactiveAddButtonColor">#B3B3B3</color>    <color name="infoPageBackgroundColor">#EBEBEB</color>    <color name="actionBarArrowColor">@color/colorAccent</color>    <color name="blue">#348af7</color>    <color name="colorMain">#4285F4</color>    <color name="temperature_background">@color/colorPrimary</color>    <color name="temperature_text">@android:color/white</color>    <color name="black">#000</color>   <!-- "#4285F4","#DB4437","#F4B400","#0F9D58"-->    <color name="gred">#DB4437</color>    <color name="ggreen">#0F9D58</color>    <color name="gblue">#4285F4</color>    <color name="gyellow"> #F4B400</color>    <color name="gpink">#d81b60</color>    <color name="ggray">#424242</color>    <color name="gdblue">#1565c0</color>    <color name="gpurple">#4527a0</color>    <color name="glyellow">#ffeb3b</color>    <color name="glpurple">#9575cd</color>    <color name="gorange">#e64a19</color>    <color name="glpink">#f48fb1 </color></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">@android:color/transparent</color>
+    <color name="colorAccent">#4285F4</color>
+    <color name="inactiveAddButtonColor">#B3B3B3</color>
+    <color name="infoPageBackgroundColor">#F2F2F7</color>
+    <color name="actionBarArrowColor">@color/colorAccent</color>
+    <color name="blue">#348AF7</color>
+    <color name="colorMain">#4285F4</color>
+    <color name="temperature_background">@color/colorPrimary</color>
+    <color name="temperature_text">@android:color/white</color>
+    <color name="black">#000000</color>
+    <!-- "#4285F4","#DB4437","#F4B400","#0F9D58"-->
+    <color name="gred">#DB4437</color>
+    <color name="ggreen">#0F9D58</color>
+    <color name="gblue">#4285F4</color>
+    <color name="gyellow">#F4B400</color>
+    <color name="gpink">#D81B60</color>
+    <color name="ggray">#424242</color>
+    <color name="gdblue">#1565C0</color>
+    <color name="gpurple">#4527A0</color>
+    <color name="glyellow">#FFEB3B</color>
+    <color name="glpurple">#9575CD</color>
+    <color name="gorange">#E64A19</color>
+    <color name="glpink">#F48FB1</color>
+
+    <!-- Bento UI Design System -->
+    <color name="bento_bg">#F2F2F7</color>
+    <color name="bento_card_bg">#FFFFFF</color>
+    <color name="bento_stroke">#E5E5EA</color>
+    <color name="bento_subtext">#8E8E93</color>
+    <color name="bento_text_primary">#1C1C1E</color>
+</resources>

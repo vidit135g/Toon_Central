@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -6,7 +7,7 @@
     android:layout_height="wrap_content"
     app:behavior_hideable="false"
     app:behavior_peekHeight="@dimen/peek_height"
-    android:background="#fff"
+    android:background="@color/bento_bg"
     android:theme="@style/AppTheme"
     android:gravity="fill"
     android:animateLayoutChanges="true"
@@ -25,10 +26,12 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/sticker_pack_list"
         android:layout_width="match_parent"
-        android:theme="@style/GridTheme"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:layout_height="wrap_content"
-       />
-
+        android:theme="@style/GridTheme"
+        android:clipToPadding="false"
+        android:paddingTop="8dp"
+        android:paddingBottom="24dp"
+        android:background="@color/bento_bg"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
 </RelativeLayout>
